@@ -29,7 +29,4 @@ public class Contato {
 	
 }
 
-/*
-Para este programa, os atributos da classe Contato são:  
- Nome  Telefone  Celular  Email  
-*/
+//7 de julho de 2021 21:04:03

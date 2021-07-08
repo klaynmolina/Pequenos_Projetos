@@ -40,3 +40,5 @@ public class RegraTres {
  * A está para B assim como C está para X
  * 20		   2			40
  */
+
+//26 de abril de 2021 20:59:19

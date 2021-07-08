@@ -118,3 +118,5 @@ public class Cadastro_Frases {
 	}
 
 }
+
+//7 de julho de 2021 20:27:46
