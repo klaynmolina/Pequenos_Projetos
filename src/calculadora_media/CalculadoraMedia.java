@@ -1,4 +1,4 @@
-package CalculadoraMedia;
+package calculadora_media;
 
 import java.util.Scanner;
 
