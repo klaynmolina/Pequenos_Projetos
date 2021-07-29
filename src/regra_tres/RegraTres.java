@@ -4,36 +4,37 @@ import java.util.Scanner;
 
 public class RegraTres {
 	
-	
 	public static void main(String[] args) {
 		
-		double a, b, c, x = 1;
+		Scanner read = new Scanner(System.in);
 		
-		Scanner teclado = new Scanner(System.in);
+		System.out.println("REGRA DE TRÊS");
+		System.out.println("z = (b * c) / (z * a)");
 		
-		System.out.println("\n****************");
-		System.out.println(" A está para B");
-		System.out.println("  assim como");
-		System.out.println(" C está para X");
-		System.out.println("****************");
+		System.out.println("\n*********");
+		System.out.println(" a --- b");
+		System.out.println("    X");
+		System.out.println(" c --- z");
+		System.out.println("*********");
 		
-		System.out.println();
+		//Lambda
+		CalculoRegraTres resultado = (a, b, c, z) -> z = (b * c) / (z * a);
 
-		System.out.println("Agora, vamos calcular:");
+		System.out.print("\na = ");
+		double a = read.nextDouble();
+		System.out.print("b = ");
+		double b = read.nextDouble();
+		System.out.print("c = ");
+		double c = read.nextDouble();
+		double x = 1;
+		
+		
+		System.out.printf("\nz = %.1f ", resultado.calcular(a, b, c, x));
 
-		System.out.print("\nDigite o número correspondente a A: ");
-		a = teclado.nextDouble();
-		System.out.print("\nDigite o número correspondente a B: ");
-		b = teclado.nextDouble();
-		System.out.print("\nDigite o número correspondente a C: ");
-		c = teclado.nextDouble();
-
-		double calculo = x = (b * c) / (x * a);
-
-		System.out.printf("\nX tem o valor de: %.2f ", calculo);
-
-		teclado.close();
+		read.close();
 	}
+
+	
 }
 
 /*
@@ -41,4 +42,5 @@ public class RegraTres {
  * 20		   2			40
  */
 
-//26 de abril de 2021 20:59:19
+//26 de abril de 2021 > criação básica
+//28 de julho de 2021 > Implementação Interface e Lambda
