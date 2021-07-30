@@ -2,7 +2,7 @@ package regra_tres;
 
 import java.util.Scanner;
 
-public class RegraTres {
+public class RegraTresExecucao2 {
 	
 	public static void main(String[] args) {
 		
@@ -17,7 +17,7 @@ public class RegraTres {
 		System.out.println(" c --- z");
 		System.out.println("*********");
 		
-		//Lambda
+		//Lambda e Interface Funcional
 		CalculoRegraTres resultado = (a, b, c, z) -> z = (b * c) / (z * a);
 
 		System.out.print("\na = ");
@@ -26,10 +26,10 @@ public class RegraTres {
 		double b = read.nextDouble();
 		System.out.print("c = ");
 		double c = read.nextDouble();
-		double x = 1;
+		double z = 1;
 		
 		
-		System.out.printf("\nz = %.1f ", resultado.calcular(a, b, c, x));
+		System.out.printf("\nz = %.1f ", resultado.calcular(a, b, c, z));
 
 		read.close();
 	}
@@ -43,4 +43,4 @@ public class RegraTres {
  */
 
 //26 de abril de 2021 > criação básica
-//28 de julho de 2021 > Implementação Interface e Lambda
+//28 de julho de 2021 > Implementação Interface Funcional e Lambda

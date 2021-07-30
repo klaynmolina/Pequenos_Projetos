@@ -86,3 +86,5 @@ public class Banco {
 		readString.close();
 	}
 }
+
+//8 de julho de 2021

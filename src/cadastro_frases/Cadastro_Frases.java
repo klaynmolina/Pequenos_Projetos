@@ -6,8 +6,10 @@ import java.util.Scanner;
 public class Cadastro_Frases {
 
 	public static void main(String[] args) {
+		
 		Scanner read = new Scanner(System.in);
 		Scanner readString = new Scanner(System.in);
+		
 		ArrayList<String> frases = new ArrayList<>();
 
 		String frase = "";
@@ -119,4 +121,4 @@ public class Cadastro_Frases {
 
 }
 
-//7 de julho de 2021 20:27:46
+//7 de julho de 2021

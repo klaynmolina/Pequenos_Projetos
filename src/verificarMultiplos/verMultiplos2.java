@@ -3,24 +3,24 @@ package verificarMultiplos;
 import java.util.Scanner;
 import java.util.function.BinaryOperator;
 
-public class verMultiplos {
+public class verMultiplos2 {
 	
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		
 		System.out.println("VERIFICAÇÃO DE MULTIPLOS");
 		
-	
+		//Lambda e Binary Operator
+		BinaryOperator<Double> calculo1 = (x,y) -> x%y;
+		BinaryOperator<Double> calculo2 = (x,y) -> y%x;
+		
 		System.out.print("\nInforme o primeiro número inteiro: ");
 		double x = read.nextInt();
 		
 		System.out.print("Informe o segundo número inteiro: ");
 		double y = read.nextInt();
 		
-		double r1 = x%y;
-		double r2 = y%x;
-		
-		if (r1 == 0.0 || r2 == 0.0) {
+		if (calculo1.apply(x, y) == 0.0 || calculo2.apply(x, y) == 0.0) {
 			System.out.println("\n-> São multiplos");
 		} else {
 			System.out.println("\n-> Não são multiplos");
@@ -30,4 +30,4 @@ public class verMultiplos {
 	}
 }
 
-// 7 de abril de 2021
+// 29/07/2021 > implementação lambda e BinaryOperator

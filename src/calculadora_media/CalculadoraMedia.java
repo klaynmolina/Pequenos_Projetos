@@ -65,4 +65,4 @@ public class CalculadoraMedia {
 	}
 }
 
-//13 de maio de 2021 21:23:33
+//13 de maio de 2021
