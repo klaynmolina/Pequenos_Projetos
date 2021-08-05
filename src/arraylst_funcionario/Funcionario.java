@@ -1,4 +1,4 @@
-package ArrayListFuncionario;
+package arraylst_funcionario;
 
 public class Funcionario {
 	

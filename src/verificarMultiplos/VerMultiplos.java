@@ -3,7 +3,7 @@ package verificarMultiplos;
 import java.util.Scanner;
 import java.util.function.BinaryOperator;
 
-public class verMultiplos {
+public class VerMultiplos {
 	
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);

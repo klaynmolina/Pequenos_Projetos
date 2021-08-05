@@ -3,7 +3,7 @@ package cadastro_contatos;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Cadastro_Contatos {
+public class CadastroContatos {
 	
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package ArrayListFuncionario;
+package arraylst_funcionario;
 
 import java.util.ArrayList;
 import java.util.Scanner;

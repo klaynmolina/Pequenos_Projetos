@@ -3,7 +3,7 @@ package lista_mercado;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class lista_mercado {
+public class ListaMercado {
 	
 	public static void main(String[] args) {
 

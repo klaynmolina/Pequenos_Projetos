@@ -3,7 +3,7 @@ package cadastro_frases;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Cadastro_Frases {
+public class CadastroFrases {
 
 	public static void main(String[] args) {
 		
