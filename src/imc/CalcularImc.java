@@ -1,7 +1,6 @@
 package imc;
 
 import java.util.Scanner;
-import java.util.function.BinaryOperator;
 
 public class CalcularImc {
 

@@ -6,7 +6,6 @@ public class Conta {
 	
 	ArrayList<Conta> cadastro = new ArrayList<>();
 	
-	
 	private long numeroConta;
 	private String nome;
 	private double depositoInicial;
@@ -31,6 +30,15 @@ public class Conta {
 		return this.saldoConta -= (valorSaque + 5.0); 
 	}
 	
+		
+	public double getDepositoInicial() {
+		return depositoInicial;
+	}
+
+	public void setDepositoInicial(double depositoInicial) {
+		this.depositoInicial = depositoInicial;
+	}
+
 	@Override
 	public String toString() {
 		return "Numero da Conta: " + numeroConta + 
