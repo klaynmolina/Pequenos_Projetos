@@ -1,4 +1,4 @@
-package verificarMultiplos;
+
 
 import java.util.Scanner;
 import java.util.function.BinaryOperator;

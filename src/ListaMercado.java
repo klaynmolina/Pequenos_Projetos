@@ -1,4 +1,4 @@
-package lista_mercado;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
